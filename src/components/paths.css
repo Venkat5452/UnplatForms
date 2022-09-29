@@ -1,0 +1,22 @@
+.ul{
+    height:2px;
+    width:80px;
+    margin:-5px 0 0 -10px;
+    background-color: black;
+}
+.uli{
+    height:2px;
+    width:130px;
+    margin:-5px 0 0 -10px;
+    background-color: black;
+}
+.ul2{
+    height:2px;
+    width:80px;
+    margin:-5px 0 0 -3px;
+    background-color: navy;
+}
+.adjust{
+    height:150px;
+    overflow-y: scroll;
+}
