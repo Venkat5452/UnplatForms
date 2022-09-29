@@ -28,7 +28,7 @@ function App() {
             </NavDropdown>
           </Nav>
           <Nav style={{fontWeight:'500'}} >
-            <Nav.Link href="/" className='mx-4 font-weight-bold'>My Path</Nav.Link>
+            <Nav.Link href="/pathss" className='mx-4 font-weight-bold'>My Path</Nav.Link>
             <Nav.Link href="mygoals" className='mx-4 font-weight-normal'>My Goals</Nav.Link>
             <Nav.Link href="notification" className='mx-4'><IoIosNotifications/></Nav.Link>
             <Nav.Link href="profile" className='mx-4'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8KQqJNGqBc_TWy4wXpnA-xuPFaiwLCWSxww&usqp=CAU' className='rounded-circle' width={"25"} height={"25"} alt=''></img></Nav.Link>
@@ -38,7 +38,7 @@ function App() {
     </Navbar>
     </div>
     <Routes>
-       <Route path="/" element={<Pathused/>} />
+       <Route path="/pathss" element={<Pathused/>} />
     </Routes>
     </div>
   );
